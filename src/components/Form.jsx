@@ -12,8 +12,7 @@ const Form = () => {
 
 
     useEffect(() => {
-        console.log(firstInput, secondInput, firstInput === secondInput);
-
+        
         if (firstInput.length < 4) {
             setShoda(1);
 
